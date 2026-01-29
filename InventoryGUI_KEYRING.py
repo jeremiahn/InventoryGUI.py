@@ -36,9 +36,9 @@ class InventoryApp:
         
         self.sandbox = False
         if self.sandbox:
-            self.tdx_base = 'https://spidertechnet.richmond.edu/sbTDWebApi/'
+            self.tdx_base = 'https://spidertechnet.richmond.edu/******/'
         else:
-            self.tdx_base = 'https://spidertechnet.richmond.edu/tdwebapi/'
+            self.tdx_base = 'https://spidertechnet.richmond.edu/******/'
             
         self.session = requests.Session()
         self.bearer_token = ""
